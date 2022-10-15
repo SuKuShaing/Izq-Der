@@ -52,4 +52,4 @@ function ColorCode() {
        finalCode = finalCode + makingColorCode[Math.floor(Math.random() * 16)];
     };
     return finalCode;
- }
+}
