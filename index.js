@@ -1,6 +1,6 @@
 //Se inician las variables
-let izq = new Audio('./Izquierda.mp3');
-let der = new Audio('./Derecha.mp3');
+let izq = new Audio('./Izquierda-v2.mp3');
+let der = new Audio('./Derecha-v2.mp3');
 var nActivado = 0; //Esta almacenará el número del temporizador
 
 //Se inicializan los botones

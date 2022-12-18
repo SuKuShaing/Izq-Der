@@ -1,6 +1,10 @@
-# Izq-Der
-### pagina web a petición del mi hermano
-Es para entrenar la velocidad de reacción en el entrenamiento, me pareció entretenido
+# 🏃‍♀️ Izq-Der Reflejos 🏃‍♂️
+# 🥇
+### pagina web a petición del mi hermano 🤜🤛
+Es para entrenar la velocidad de reacción en el entrenamiento, me pareció entretenido hacerla 😁
+
+Disponible para usar en el siguiente link
+https://sukushaing.github.io/Izq-Der/
 
 ----
 
