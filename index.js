@@ -27,7 +27,7 @@ function empezar() {
 function detener() {
     clearInterval(nActivado);
     console.log("Se detuvo el intervalo");
-    document.getElementById("central").style.backgroundColor = "#DCDCDC";
+    // document.getElementById("central").style.backgroundColor = "#DCDCDC";
     //Se habilitan y deshabilitan los botones para solo presionarlos una vez
     document.getElementById("btnIniciar").disabled = false;
     document.getElementById("btnDetener").disabled = true;
@@ -47,7 +47,7 @@ function reproducir() {
 //Cambia el color del fondo
 function cambiarColor() {
     let hex = ColorCode();
-    document.getElementById("central").style.backgroundColor = `${hex}`;
+    document.getElementById("fondo").style.backgroundColor = `${hex}`;
 }
 
 //genera el código de color aleatorio
