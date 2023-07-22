@@ -69,8 +69,8 @@ function detener() {
 function reproducir() {
     //determina la velocidad de reproducción
     if (tiempo_intervalo < 700) {
-        izq.playbackRate = 3;
-        der.playbackRate = 3;
+        izq.playbackRate = 3.3;
+        der.playbackRate = 3.3;
     } else if (tiempo_intervalo < 1400) {
         izq.playbackRate = 2;
         der.playbackRate = 2;
@@ -110,12 +110,12 @@ function ColorCode() {
     return finalCode;
 }
 
+//Cuentan la cantidad de izq y der dichas
 function aumentarIzq() {
     contador_izquierda ++;
     numIzq.innerHTML = ``;
     numIzq.innerHTML = `${contador_izquierda}`;
 }
-
 function aumentarDer() {
     contador_derecha ++;
     numDer.innerHTML = ``;
