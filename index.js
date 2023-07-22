@@ -69,8 +69,8 @@ function detener() {
 function reproducir() {
     //determina la velocidad de reproducción
     if (tiempo_intervalo < 700) {
-        izq.playbackRate = 3.3;
-        der.playbackRate = 3.3;
+        izq.playbackRate = 3.5;
+        der.playbackRate = 3.5;
     } else if (tiempo_intervalo < 1400) {
         izq.playbackRate = 2;
         der.playbackRate = 2;
