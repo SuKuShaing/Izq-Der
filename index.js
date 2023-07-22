@@ -48,6 +48,7 @@ function reproducir() {
 function cambiarColor() {
     let hex = ColorCode();
     document.getElementById("fondo").style.backgroundColor = `${hex}`;
+    document.querySelector('meta[name="theme-color"]').setAttribute('content',  `${hex}`);
 }
 
 //genera el código de color aleatorio
