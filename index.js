@@ -50,19 +50,27 @@ function empezar() {
     nActivado = setInterval(reproducir, tiempo_intervalo);
     console.log("Activado el intervalo, n°: " + nActivado)
     cambiarColor();
+
     //Se habilitan y deshabilitan los botones para solo presionarlos una vez 
     document.getElementById("btnIniciar").disabled = true;
     document.getElementById("btnDetener").disabled = false;
+    
+    document.getElementById("btnIniciar").classList.add('inactive');
+    document.getElementById("btnDetener").classList.remove('inactive');
+
 }
 
 //Finaliza el intervalo de reproducción de audio
 function detener() {
     clearInterval(nActivado);
     console.log("Se detuvo el intervalo");
-    // document.getElementById("central").style.backgroundColor = "#DCDCDC";
+    
     //Se habilitan y deshabilitan los botones para solo presionarlos una vez
     document.getElementById("btnIniciar").disabled = false;
     document.getElementById("btnDetener").disabled = true;
+    
+    document.getElementById("btnIniciar").classList.remove('inactive');
+    document.getElementById("btnDetener").classList.add('inactive');
 }
 
 //Selecciona aleatoriamente si reproducir el audio de derecha o de izquierda

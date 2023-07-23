@@ -1,5 +1,7 @@
 :root {
     /* colores y variables */
+    --negro: rgba(0, 0, 0, 0.9);
+
 }
 
 * {
@@ -39,13 +41,13 @@ body {
     z-index: 1;
 
     border-radius: 20px;
-    border: 1px solid var(--borde, #FFF);
+    border: 1px solid rgba( 255, 255, 255, 0.35 );;
     background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1.5fr 1fr 1fr;
     place-items: center;
     /* align-content: space-around; */
 
@@ -64,7 +66,7 @@ body {
     grid-row: 1 / 2;
     
     text-align: center;
-    color: #000;
+    color: var(--negro);
     
     display: inline-flex;
     flex-direction: column;
@@ -93,7 +95,7 @@ h2 {
 .button-30 {
     display: flex;
     
-    padding: 10px 20px;
+    padding: 15px 25px;
     justify-content: space-around;
     align-items: center;
     gap: 10px;
@@ -122,14 +124,22 @@ h2 {
 
     color: #000;
     text-align: center;
-    /* font-family: Inter; */
     font-size: 3rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 
     border: none;
-    /* background-color: #D9D9D9; */
+}
+
+#btn_bajar_tiempo {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#btn_subir_tiempo {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 #mostrar-tiempo {
@@ -137,9 +147,6 @@ h2 {
     height: 57px;
 
     background-color: #D9D9D9;
-    /* fill: #D9D9D9; */
-    /* stroke-width: 1px; */
-    /* stroke: var(--borde, #FFF); */
 
     color: #000;
     font-size: 3rem;
@@ -168,7 +175,7 @@ h2 {
     justify-content: center;
 
     /* css de los textos */
-    color: #000;
+    color: var(--negro);
     text-align: center;
     font-size: 3rem;
     font-style: normal;
@@ -184,6 +191,10 @@ h2 {
     margin-left: 1rem;
 }
 
+
+.inactive {
+    display: none;
+}
 /* ************************************** */
 /* ************************************** */
 /* ********* Animación de fondo ********* */
