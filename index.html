@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="./css/mobile.css">
     <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 500px)">
     <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1000px)">
@@ -11,11 +12,11 @@
     <!-- solo si es superior a 930px va descargar la 2da hoja de estilo  -->
     <meta name="theme-color" content="#87046b"/>
 
-    <title>Izquierda-Derecha | Entrenamiento de Reflejos</title>
+    <title>Izquierda- Derecha | Entrenamiento de Reflejos</title>
     
-    <link rel="apple-touch-icon" sizes="180x180" href="./css/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./css/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./css/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./css/Favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./css/Favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./css/Favicons/favicon-16x16.png">
 
     <meta name="description" content="aplicación para practicar los reflejos, Izquiera y Derecha, donde se puede manejar el tiempo de intervalo entre palabra y palabra">
     <meta name="keywords" content="reflejos, aplicación, izquieda, derecha, tiempo, intervalo">
@@ -34,25 +35,37 @@
     <div id=central>
         <div id="titulos">
             <h1>Entrenamiento de Reflejos</h1>
-            <h2>Izquierda - Derecha</h2>
+            <h2>Izquierda- Derecha</h2>
         </div>
         <div id="botones">
-            <button class="button-30" id="btnIniciar">▶</button>
-            <button class="button-30 inactive" id="btnDetener">⬛</button>
+            <button class="button-30 gloss" id="btnIniciar">
+                <img class="play" src="./css/imgs/Play.svg" alt="Play">
+            </button>
+            <button class="button-30 gloss inactive" id="btnDetener">
+                <img class="stop" src="./css/imgs/Stop.svg" alt="Stop">
+            </button>
         </div>
-        <div id="subir_bajar_tiempo">
-            <button id="btn_bajar_tiempo">-</button>
+        <div class="gloss" id="subir_bajar_tiempo">
+            <button id="btn_bajar_tiempo">
+                <img src="./css/imgs/Menos.svg" alt="">
+            </button>
             <div id="mostrar-tiempo">2</div>
-            <button id="btn_subir_tiempo">+</button>
+            <button id="btn_subir_tiempo">
+                <img src="./css/imgs/mas.svg" alt="">
+            </button>
         </div>
         <div id="cantidad">
-            <div class="casilla-de-conteo">
-                <div class="casilla-de-conteo__text">⇐</div>
+            <div class="casilla-de-conteo gloss">
+                <div class="casilla-de-conteo__text">
+                    <img src="./css/imgs/Flecha_izq.svg" alt="">
+                </div>
                 <div class="casilla-de-conteo__num" id="num_izq">0</div>
             </div>
-            <div class="casilla-de-conteo">
-                <div class="casilla-de-conteo__text">⇒</div>
+            <div class="casilla-de-conteo gloss">
                 <div class="casilla-de-conteo__num" id="num_der">0</div>
+                <div class="casilla-de-conteo__text">
+                    <img src="./css/imgs/Flecha_der.svg" alt="">
+                </div>
             </div>
         </div>
     </div>

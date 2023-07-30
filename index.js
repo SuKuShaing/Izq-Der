@@ -11,8 +11,8 @@ btn_subir_tiempo.addEventListener('click', subir_tiempo);
 btn_bajar_tiempo.addEventListener('click', bajar_tiempo);
 
 //Se obtienen elementos
-let izq = new Audio('./Izquierda-v2.mp3');
-let der = new Audio('./Derecha-v2.mp3');
+let izq = new Audio('./sonidos/Izquierda-v2.mp3');
+let der = new Audio('./sonidos/Derecha-v2.mp3');
 let tiempo_en_pantalla = document.getElementById("mostrar-tiempo");
 let numIzq = document.getElementById("num_izq");
 let numDer = document.getElementById("num_der");
