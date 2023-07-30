@@ -1,0 +1,63 @@
+#central {
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+#botones {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+}
+
+.button-30 {
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+}
+
+.button-30 img {
+    width: 85px;
+}
+
+#subir_bajar_tiempo {
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+    width: 70%;
+}
+
+#subir_bajar_tiempo {
+    padding: 20px 40px;
+    justify-content: space-around;
+    border-radius: 35px;
+}
+
+#subir_bajar_tiempo button img{
+    width: 38px;
+}
+
+#mostrar-tiempo {
+    font-size: 5rem;
+}
+
+#cantidad {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+}
+
+.casilla-de-conteo {
+    font-size: 5rem;
+    padding: 15px 10px;
+    width: 45%;
+}
+
+.casilla-de-conteo__text img {
+    width: 75px;
+}

@@ -134,30 +134,7 @@ h2 {
 }
 
 #btn_bajar_tiempo, #btn_subir_tiempo {
-    /* width: 55px;
-    height: 57px; */
-
-    /* color: #FFF; */
-    text-align: center;
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-
     border: none;
-}
-
-#btn_bajar_tiempo {
-    /* border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px; */
-    background-color: transparent;
-    display: grid;
-    place-content: center;
-}
-
-#btn_subir_tiempo {
-    /* border-top-right-radius: 10px; */
-    /* border-bottom-right-radius: 10px; */
     background-color: transparent;
     display: grid;
     place-content: center;

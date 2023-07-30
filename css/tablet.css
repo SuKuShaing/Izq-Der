@@ -1,0 +1,43 @@
+#central {
+    grid-template-rows: 1fr 4fr 1fr 1fr;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+.button-30 {
+    height: 250px;
+    width: 250px;
+    border-radius: 200px;
+}
+
+.button-30 img {
+    width: 80px;
+}
+
+#subir_bajar_tiempo {
+    padding: 10px 40px;
+    justify-content: space-around;
+}
+
+#subir_bajar_tiempo button img{
+    width: 31px;
+}
+
+#mostrar-tiempo {
+    font-size: 4.5rem;
+}
+
+.casilla-de-conteo {
+    font-size: 4rem;
+    padding: 13px 10px;
+}
+
+.casilla-de-conteo__text img {
+    width: 60px;
+}
