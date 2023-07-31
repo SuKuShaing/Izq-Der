@@ -1,0 +1,28 @@
+{
+    "name": "Entrenamiento de Reflejos",
+    "short_name": "Reflejos",
+    "description": "La app te dirá izquierda o derecha y tu tendrás que reaccionar",
+    "theme_color": "#87046b",
+    "background_color": "#87046b",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "./",
+    "start_url": "./",
+    "icons": [
+        {
+            "src": "./css/Favicons/android-chrome-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "./css/Favicons/apple-touch-icon.png",
+            "type": "image/png",
+            "sizes": "180x180"
+        },
+        {
+            "src": "./css/Favicons/favicon-16x16.png",
+            "type": "image/png",
+            "sizes": "16x16"
+        }
+    ]
+}

@@ -12,7 +12,7 @@
     <!-- solo si es superior a 930px va descargar la 2da hoja de estilo  -->
     <meta name="theme-color" content="#87046b"/>
 
-    <title>Izquierda- Derecha | Entrenamiento de Reflejos</title>
+    <title>Izquierda - Derecha | Entrenamiento de Reflejos</title>
     
     <link rel="apple-touch-icon" sizes="180x180" href="./css/Favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./css/Favicons/favicon-32x32.png">
@@ -30,6 +30,13 @@
     <meta property="og:image:height" content="610" />
     <meta property="og:url" content="https://sukushaing.github.io/Izq-Der/" />
     <meta property="og:site_name" content="Reflejos | Izquierda - Derecha" />
+
+    <link rel="manifest" href="./manifest.json">
+    <script type="text/javascript">
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("sw.js");
+        }
+    </script>
 </head>
 <body id="fondo" class="area">
     <div id=central>
@@ -86,13 +93,11 @@
 </html>
 
 <!-- 
-    Pasos
-    - Crear los CSS para que se vea bien en tablet, desktop y más grandes
-    
     Futuros cambios
     - Que sea una app PWA
     
 *** Listo ***
+- Crear los CSS para que se vea bien en tablet, desktop y más grandes ✔
 - Que tenga las metasestiquetas en el head para tw -> que paja
 - Que tenga las metasestiquetas en el head para meta ✔
 - Que tenga las metasestiquetas en el head para google ✔
