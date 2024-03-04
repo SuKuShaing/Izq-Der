@@ -9,11 +9,11 @@ La he hecho una app multiplataforma para que la ocupe el y sus alumnos en sus te
 https://sukushaing.github.io/Izq-Der/
 
 Las tecnologías usadas son:
-![](https://lh3.googleusercontent.com/drive-viewer/AITFw-zTtDqB0lwGYpCsvUTaUH8Y9HyABWk6gs-pZ2aqWSUmO9ETQhU8jJ5He9u0s7t5YuOPcabU47hgl8AOlKW4INlKaiWsZQ=w1366-h695 "HTML5")  ![](https://lh3.googleusercontent.com/drive-viewer/AITFw-zOUjXxL9B9szlJ_ZGI7CmpE-1YKPmw2RFo2udNYTAdTULaxt68Cvv5ZyF1AnL3jRPXQ7O0Ux7-knYYSm_ewuXP6lswAQ=w1366-h695 "CSS")  ![](https://lh3.googleusercontent.com/drive-viewer/AITFw-zOpA_R-IwcIKtaItaFgvOWJvx5cbEKRYAiHegERZ_xhoLBfscGoBiMJp9ueSxkHXTwB2KD9nCxw5pQqBo_gHW-5RWphg=w1366-h695 "JavaScript")  ![](https://lh3.googleusercontent.com/drive-viewer/AITFw-xq8QrcKm7gBFsc8SjoQgrnG1YlLEDKamy8oJpAKHoNz2KV0eVNm42ZlaxF6eOZU2riTUP21Bja6pMutOEI-3rnldLW5g=w1366-h695 "Progressive Web Apps") ![](https://lh3.googleusercontent.com/drive-viewer/AITFw-wQKj_OUQIVJ_3Ll7bffDgZ-IVI_vU8Y-cXMkFzTUWizoJJTNuGUxBFtc0xcQYOy8gvw5I7UxKty8iu-y5EpWj_DOSgbQ=w1366-h695 "Figma")
+![Figma](https://raw.githubusercontent.com/SuKuShaing/SuKuShaing/main/figma%20(ok).png "Figma") ![HTML5](https://raw.githubusercontent.com/SuKuShaing/SuKuShaing/main/html-5.png "HTML5")  ![CSS](https://raw.githubusercontent.com/SuKuShaing/SuKuShaing/main/css-3.png "CSS")  ![JavaScript](https://raw.githubusercontent.com/SuKuShaing/SuKuShaing/main/js.png "JavaScript")  ![PWA](https://raw.githubusercontent.com/SuKuShaing/SuKuShaing/main/Progressive_Web_Apps_Logo.svg.png "Progressive Web Apps")
 
 
 ## Evolución de la interfaz de la app, Diseñada en Figma
-![](https://lh3.googleusercontent.com/drive-viewer/AITFw-xxi8ZqdZiS-kmsNnNU8Kpg-cgzHgYwBJ0kru7zkkQVfXdW8PFSeZYyK4wtrLgQGkRF9oyPgBLR76iF1hSHunwjii7y3Q=w1366-h695 "Interfaz creada en Figma")
+![](https://raw.githubusercontent.com/SuKuShaing/SuKuShaing/main/Progreso%20interfaz%20App%20Izq-Der.jpg "Interfaz creada en Figma")
 ----
 
 - Se uso un setInverval para generar que se reprodujera cada dos segundo el texto deseado
